@@ -22,7 +22,7 @@ class SecondViewController: UIViewController {
     
     
     
-    let imageName = ["doraemon", "nobita", "shizuka"]
+    let imageName = ["doraemon.jpg", "nobita.jpg", "shizuka.jpg"]
     
     var changeImgNo2 = 0
     
@@ -31,7 +31,18 @@ class SecondViewController: UIViewController {
     
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            // segueから遷移先のResultViewControllerを取得する
+            let viewController:ViewController = segue.destination as!
+        ViewController
+        
+        if viewController.teishihenkou == 2{
+        viewController.timer = Timer.scheduledTimer(timeInterval: 2.0, target: viewController, selector: #selector(viewController.updateTimer), userInfo: nil, repeats: true)
+            
+        }
+        
+
+    }
     
     
     

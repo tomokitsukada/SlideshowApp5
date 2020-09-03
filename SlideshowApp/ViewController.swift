@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var doraemon: UIImageView!
     
     
-    let imageName = ["doraemon", "nobita", "shizuka"]
+    let imageName = ["doraemon.jpg", "nobita.jpg", "shizuka.jpg"]
     
     var changeImgNo = 0
     
@@ -123,6 +123,9 @@ class ViewController: UIViewController {
         
         secondViewController.changeImgNo2 = changeImgNo
         
+        if teishihenkou == 2{
+        self.timer.invalidate()
+        }
     
 
 }
