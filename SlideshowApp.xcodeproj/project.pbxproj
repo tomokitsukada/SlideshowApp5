@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A819BF4E2500B85A006DFE66 /* doraemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A819BF4D2500B85A006DFE66 /* doraemon.jpg */; };
-		A819BF502500B875006DFE66 /* nobita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A819BF4F2500B875006DFE66 /* nobita.jpg */; };
-		A819BF522500B879006DFE66 /* shizuka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A819BF512500B879006DFE66 /* shizuka.jpg */; };
 		A8982C8C24F7B5C700DB8398 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8982C8B24F7B5C700DB8398 /* SecondViewController.swift */; };
+		A8E107EF2508D474002DBC38 /* doraemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E107EE2508D474002DBC38 /* doraemon.jpg */; };
+		A8E107F12508D47C002DBC38 /* nobita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E107F02508D47C002DBC38 /* nobita.jpg */; };
+		A8E107F32508D485002DBC38 /* shizuka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E107F22508D485002DBC38 /* shizuka.jpg */; };
 		A8EC7E4D24F3DB94009B9C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC7E4C24F3DB94009B9C3D /* AppDelegate.swift */; };
 		A8EC7E4F24F3DB94009B9C3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC7E4E24F3DB94009B9C3D /* SceneDelegate.swift */; };
 		A8EC7E5124F3DB94009B9C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC7E5024F3DB94009B9C3D /* ViewController.swift */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A819BF4D2500B85A006DFE66 /* doraemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doraemon.jpg; path = ../../../Desktop/doraemon.jpg; sourceTree = "<group>"; };
-		A819BF4F2500B875006DFE66 /* nobita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nobita.jpg; path = ../../../Desktop/nobita.jpg; sourceTree = "<group>"; };
-		A819BF512500B879006DFE66 /* shizuka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shizuka.jpg; path = ../../../Desktop/shizuka.jpg; sourceTree = "<group>"; };
 		A8982C8B24F7B5C700DB8398 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A8E107EE2508D474002DBC38 /* doraemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doraemon.jpg; path = ../../../Desktop/doraemon.jpg; sourceTree = "<group>"; };
+		A8E107F02508D47C002DBC38 /* nobita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nobita.jpg; path = ../../../Desktop/nobita.jpg; sourceTree = "<group>"; };
+		A8E107F22508D485002DBC38 /* shizuka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shizuka.jpg; path = ../../../Desktop/shizuka.jpg; sourceTree = "<group>"; };
 		A8EC7E4924F3DB93009B9C3D /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EC7E4C24F3DB94009B9C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EC7E4E24F3DB94009B9C3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 				A8982C8B24F7B5C700DB8398 /* SecondViewController.swift */,
 				A8EC7E5224F3DB94009B9C3D /* Main.storyboard */,
 				A8EC7E5524F3DBA4009B9C3D /* Assets.xcassets */,
-				A819BF4D2500B85A006DFE66 /* doraemon.jpg */,
-				A819BF4F2500B875006DFE66 /* nobita.jpg */,
-				A819BF512500B879006DFE66 /* shizuka.jpg */,
 				A8EC7E5724F3DBA4009B9C3D /* LaunchScreen.storyboard */,
 				A8EC7E5A24F3DBA4009B9C3D /* Info.plist */,
+				A8E107EE2508D474002DBC38 /* doraemon.jpg */,
+				A8E107F02508D47C002DBC38 /* nobita.jpg */,
+				A8E107F22508D485002DBC38 /* shizuka.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -137,12 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A819BF4E2500B85A006DFE66 /* doraemon.jpg in Resources */,
+				A8E107EF2508D474002DBC38 /* doraemon.jpg in Resources */,
 				A8EC7E5924F3DBA4009B9C3D /* LaunchScreen.storyboard in Resources */,
-				A819BF502500B875006DFE66 /* nobita.jpg in Resources */,
+				A8E107F12508D47C002DBC38 /* nobita.jpg in Resources */,
 				A8EC7E5624F3DBA4009B9C3D /* Assets.xcassets in Resources */,
 				A8EC7E5424F3DB94009B9C3D /* Main.storyboard in Resources */,
-				A819BF522500B879006DFE66 /* shizuka.jpg in Resources */,
+				A8E107F32508D485002DBC38 /* shizuka.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
